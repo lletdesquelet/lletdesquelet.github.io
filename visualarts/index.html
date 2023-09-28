@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>llet d'esquelet</title>
+<meta charset = "UTF-8">
+<meta name = "details" content = "">
+<meta name = "author" content = "Andrés Gutiérrez">
+<meta name = "keywords" content = "">
+<style>
+    .headb {
+        height: 32px;
+        width: 160px;
+        background-color: black;
+        border-color: white;
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 2px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+        transition: all 0.25s;
+    }
+    .headb:hover {
+        background-color: white;
+        border-width: 0px;
+        color: black;
+        font-size: larger;
+    }
+    .headb:active {
+        background-color: black;
+        border-width: 0px;
+        color: white;
+        font-size: larger;
+        transition: all 0.125s;
+    }
+    .selected {
+        height: 32px;
+        width: 160px;
+        background-color: black;
+        border-radius: 4px;
+        border-width: 0px;
+        color: rgb(255, 192, 128);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .myname {
+        text-align: center;
+        color: rgba(255,255,255,0.25);
+        transition: color 0.5s;
+    }
+    .myname:hover{
+        color: rgba(255,255,255,0.75);
+    }
+    .llet {
+        text-align: center;
+        color: rgb(255,255,255);
+        cursor: pointer;
+        transition: color 0.5s;
+    }
+    .llet:hover {
+        color: rgb(128, 255, 255);
+    }
+    .llet:active {
+        color: rgb(255, 192, 128);
+        transition: color 0.25s;
+    }
+    .centext {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+</style>
+</head>
+
+<body style="margin: 0;">
+    <div style=
+    "background-color: black;
+    color: white;
+    font-family: consolas;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 128px;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;">
+        <div><h1 class="myname">Visual</h1></div>
+        <a href = "../index.html"><div><h1 class="llet">&gt<u>llet d'esquelet</u>&lt</h1></div></a>
+        <div><h1 class="myname">Arts</h1></div>
+
+        <div class = "centext" style="position: relative; bottom: 16px;">
+            <button class="selected">Visual arts</button>
+        </div>
+        <div class = "centext" style="position: relative; bottom: 16px;">
+            <a href = "https://www.instagram.com/llet_d.esquelet"><button class="headb">Social media</button></a>
+        </div>
+        <div class = "centext" style="position: relative; bottom: 16px;">
+            <a href = ""><button class="headb">Videogames</button></a>
+        </div>
+    </div>
+
+    <div style=
+    "background-color: black;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: relative;
+    top: 128px;">
+        <div class="centext" style="background-color: white; margin-left: 15%; margin-right: 15%;">
+            <center>Here are all my drawings, sculptures and other visual art I have done so far.</center>
+        </div>
+        <div style="height: 16px; background-color: white; margin-left: 15%;margin-right: 15%;"></div>
+        <div class="centext" style="background-color: white; margin-left: 15%; margin-right: 15%;">
+            <b><center>I hope you like it.</center></b>
+        </div>
+    </div>
+
+    <div style=
+    "font-family: Arial, Helvetica, sans-serif;
+    aspect-ratio: 4/1;
+    position: relative;
+    top: 128px;
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;">
+        <div class="centext"style="background-color: black;"><img src="image.png" style="height: 50%;"></div>
+        <div class="centext"style="background-color: black;"><img src="image.png" style="height: 50%;"></div>
+        <div class="centext"style="background-color: black;"><img src="image.png" style="height: 50%;"></div>
+        <div class="centext"style="background-color: black;"><img src="image.png" style="height: 50%;"></div>
+    </div>
+
+    <div style=
+    "color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 128px;
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;">
+        <div class="centext" style="background-color: black;">
+            <h2>Sketchs</h2>
+        </div>
+        <div class="centext" style="background-color: black;">
+            <h2>Paintings</h2>
+        </div>
+        <div class="centext" style="background-color: black;">
+            <h2>Sculpture</h2>
+        </div>
+        <div class="centext" style="background-color: black;">
+            <h2>Digital art</h2>
+        </div>
+    </div>
+</body>
+
+</html>
