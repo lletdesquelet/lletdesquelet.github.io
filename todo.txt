@@ -1,0 +1,14 @@
+bug- tamaño letra según dispositivo (investigar) (móvil?)
+bug- colores según dispositivo (investigar) (móvil?)
+bug- fuentes según dispositivo (investigar) (móvil?)
+
+
+
+-dibujar portadas textos
+-hacer bonitas las páginas, colores y tal
+-crear pestaña "destacado" en textos y arte visual
+-hacer fotos de arte visual y publicarlas
+-organizar colecciones arte visual
+-crear índice
+-código de colores para textos (rima, prosa)
+-versión móvil
