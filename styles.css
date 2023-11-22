@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 128px;
+    height: 14vh;
     z-index: 100;
     display: grid;
     grid-template-columns: 1fr;
