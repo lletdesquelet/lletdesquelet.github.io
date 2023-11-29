@@ -4,7 +4,7 @@ bug- fuentes según dispositivo (investigar) (móvil?)
 bug- el pie se come el texto
 
 
--arreglar pie
+
 -hacer el movimiento más juicy
 -hacer todos los tamaños relativos
 -organizar estilos
